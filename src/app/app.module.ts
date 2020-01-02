@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
+import {MatStepperModule} from '@angular/material/stepper';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
